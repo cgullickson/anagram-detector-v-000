@@ -10,10 +10,10 @@ class Anagram
     result = []
       array.each do |string|
       if string.split.sort == @word.split.sort
-        result << string.join
+        result << string
       end
     end
-    result
+    return result
   end
 
 end
