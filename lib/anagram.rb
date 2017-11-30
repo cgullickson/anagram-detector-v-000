@@ -12,8 +12,8 @@ class Anagram
       if string.split.sort == @word.split.sort
         result << string
       end
-      result
     end
+    result
   end
 
 end
