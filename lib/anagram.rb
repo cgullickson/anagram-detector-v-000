@@ -13,7 +13,7 @@ class Anagram
         result << string
       end
     end
-    return result
+    result
   end
 
 end
